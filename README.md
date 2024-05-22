@@ -8,6 +8,12 @@
 
     clip 选型：
         慎重，选型完决定了向量数据库的尺寸、后续的其他任务等
+        中文clip https://modelscope.cn/models/iic/multi-modal_clip-vit-base-patch16_zh/summary
+        英文clip可以直接用clip load
+            import clip
+            import torch
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+            clip_model, clip_preprocess = clip.load("ViT-L/14", device=device)
     
 ## nsfw分类
     参考另一个项目 https://github.com/snowAIzxm/nsfw-clip
