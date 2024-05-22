@@ -22,5 +22,7 @@
     检测：https://modelscope.cn/models/iic/cv_resnet18_ocr-detection-db-line-level_damo/summary
     识别：https://modelscope.cn/models/iic/cv_convnextTiny_ocr-recognition-general_damo/summary
 
+## 延伸应用
+    基于clip向量进行美学评价等
 
 
